@@ -377,3 +377,52 @@ input:focus {
     justify-content: center;
     border: 1px solid #dac179
 }
+
+.game-button {
+    background: black;
+    color: #ffffff;
+    border-radius: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #ffefa6 1%, #d4a65b 50%, #5b4128 100%) 1;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.input-1 {
+    background-color: #070707;
+    border: solid 1px #2d2d2d;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 0;
+    width: 100%;
+}
+
+.content_dialog_page {
+    text-align: center;
+    color: #fff;
+}
+
+.content_dialog_page ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content_dialog_page li {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 12px;
+    border: 1px solid #333
+}
+
+.content_dialog_page li.active {
+    background: #ad8734;
+    border: 1px solid #ad8734
+}
